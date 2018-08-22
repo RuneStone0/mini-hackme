@@ -8,11 +8,11 @@ def root():
 	<script type="text/javascript" src="http://evil.com/library.js"></script>
 </head>
 <body>
-	This page is vulnerable to cross-site script include
+	This page is vulnerable to cross-site script include.
 </body>
 </html>	
 	"""
 	return ret
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='127.0.0.1', port=5000, debug=True, ssl_context='adhoc')
