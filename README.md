@@ -7,4 +7,4 @@ A collection of small vulnerable applications.
 * [Cross-domain script include](/cross-domain-script-include)
 * [HTML Injection (not working in modern browsers)](/html-injection-data-theft)
 * [Content Spoofing](/content-spoofing)
-* [open-redirection](/open-redirection)
+* [Open Redirection](/open-redirection)
